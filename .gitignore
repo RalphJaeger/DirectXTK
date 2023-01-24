@@ -25,8 +25,6 @@ bin-int/
 .vs
 Bin
 packages
-/Src/Shaders/Compiled/*.inc
-/Src/Shaders/Compiled/*.pdb
 /ipch
 /MakeSpriteFont/obj
 /Tests
