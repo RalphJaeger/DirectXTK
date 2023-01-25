@@ -6,6 +6,9 @@ project "DirectXTK"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "pch.h"
+	pchsource "Src/pch.cpp"
+
 	files
 	{
 		"Inc/*.h",
